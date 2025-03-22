@@ -23,6 +23,9 @@ html {
 
   /* Fonte base */
   font-family: "Open Sans", sans-serif;
+  color: var(--text-secondary);
+
+  background-color: var(--background-default);
 }
 
 /* Tipografia */
@@ -42,12 +45,42 @@ h3 {
   font-weight: bold;
 }
 
+h1, h2, h3 {
+  color: var(--text-primary);
+}
+
 .headline {
   font-size: 16px;
   font-weight: bold;
+  color: var(--text-headline);
+  text-transform: uppercase;
 }
 
 .subtitle {
   font-size: 16px;
   font-style: italic;
+}
+
+.bom-para {
+  font-weight: bold;
+}
+
+.accent-blue {
+  color: var(--accent-blue);
+}
+
+.accent-pink {
+  color: var(--accent-pink);
+}
+
+.accent-purple {
+  color: var(--accent-purple);
+}
+
+.accent-orange {
+  color: var(--accent-orange);
+}
+
+.accent-blue, .accent-orange, .accent-pink, .accent-purple {
+  font-weight: bold;
 }
