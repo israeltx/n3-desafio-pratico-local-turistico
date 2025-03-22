@@ -1,7 +1,6 @@
 /* Reset */
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -21,4 +20,34 @@ html {
   --accent-orange: #E95E10;
   --accent-pink: #E5245E;
   --accent-purple: #591B98;
+
+  /* Fonte base */
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Tipografia */
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;  
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.headline {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-style: italic;
 }
