@@ -45,9 +45,7 @@ h3 {
   font-weight: bold;
 }
 
-h1, h2, h3 {
-  color: var(--text-primary);
-}
+h1, h2, h3 { color: var(--text-primary); }
 
 .headline {
   font-size: 16px;
@@ -59,28 +57,42 @@ h1, h2, h3 {
 .subtitle {
   font-size: 16px;
   font-style: italic;
+  text-align: center;
 }
 
-.bom-para {
-  font-weight: bold;
-}
+.bom-para { font-weight: bold; }
 
-.accent-blue {
-  color: var(--accent-blue);
-}
-
-.accent-pink {
-  color: var(--accent-pink);
-}
-
-.accent-purple {
-  color: var(--accent-purple);
-}
-
-.accent-orange {
-  color: var(--accent-orange);
-}
+.accent-blue { color: var(--accent-blue); }
+.accent-pink { color: var(--accent-pink); }
+.accent-purple { color: var(--accent-purple); }
+.accent-orange { color: var(--accent-orange); }
 
 .accent-blue, .accent-orange, .accent-pink, .accent-purple {
   font-weight: bold;
+}
+
+/* Layout */
+main {
+  width: 1120px;
+  margin: 80px auto;
+}
+
+/* Spacing */
+h1 {
+  margin-bottom: 40px;
+}
+
+/* Images */
+.image-main { height: 100%; }
+
+img {
+  border-radius: 28px;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+footer img {
+  width: 16px;
+  height: 16px;
 }
